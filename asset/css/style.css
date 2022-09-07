@@ -12,4 +12,21 @@ div.col{
     color: #fff;
     font-weight: 700;
     border: 1px solid;
+    padding: 0 !important;
+}
+.container.bg-light{
+    background-color:coral !important;
+    height: 100%;
+    padding: 0 !important;
+}
+
+.bg-light ~ .col {
+    height: 250px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid; 
 }
