@@ -2,3 +2,14 @@
 body{
     font-family: 'Cairo', sans-serif;
 }
+
+div.col{
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid;
+}
