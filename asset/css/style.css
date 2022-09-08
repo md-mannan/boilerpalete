@@ -1,4 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Chakra+Petch:wght@300;400;500;600;700&family=Fira+Code:wght@300&display=swap');
 body{
     font-family: 'Cairo', sans-serif;
+    min-height: 100vh;
 }
+
+.bg-light{
+    background-color: #f1f1f1 !important;
+}
+.main{
+background-color: #fff;
+min-height: 100vh;
+border-top-right-radius: 10px;
+}
+.social a {
+    background: #fff;
+    border-radius: 100%;
+    padding: 3px;
+    margin-left: 3px;
+}
+.social a.facebook{
+    color: ;
+}
+.social a.youtube{
+    color: #f00 !important;
+}
+.social a.twitter{}
+.social a.instagram{}
+.social a.linkedin{}
