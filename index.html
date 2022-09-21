@@ -24,46 +24,20 @@
       <title>Bootstrap Grid System</title>
     </head>
 
-    <body>
+    <body class="root" id="root">
     <div class="container p-0 ">
-      <div class="row">
-          <div class="col col-2">Col 1</div>
-          
-          <div class="col col-8">Col 3</div>
-          <div class="col col-2">Col 2</div>
-          
-      </div>
-      <div class="row">
-        <div class="col col-sm-12 col-md-6 col-lg-4 gx-5">Col 1</div>
-        <div class="col col-sm-12 col-md-6 col-lg-4 offset-sm-4 offset-md-0">
-         
-        </div>
-        <div class="col col-sm-12 col-md-12 col-lg-4">Col 1</div>
-        
-        
-        
-    </div>
+      <!-- <div class="toast alert alert-success text-bold text-white show" id="msg">#ddd </div> -->
 
-    <div class="row">
-      <div class="col col-2">Col 1</div>
-      
-      <div class="col col-8">
-        <div class="container p-0 bg-light">
-          <div class="row">
-              <div class="col col-4">1</div>
-              <div class="col col-4">1</div>
-              <div class="col col-4">1</div>
+
+        <div class="wrap">
+          <h1 class="display-3 title">Click Bellow Button to Change Background</h1>
+          <div class="input-group content">
+            <div class="input-group-text label" id="label">#</div>
+            <div class="input form-control" disabbled></div>
+            <button class="btn btn-danger " id="copy">Copy</button>
           </div>
-          <div class="row">
-              <div class="col col-4">1</div>
-              <div class="col col-4">1</div>
-              <div class="col col-4">1</div>
-          </div>
+          <button class="btn-lg btn btn-success text-bold text-white mt-5" id="change">Change Background</button>
         </div>
-      </div>
-      <div class="col col-2">Col 2</div>
-      
-  </div>
     </div>
 
 
@@ -75,7 +49,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"
       ></script>
-
+    <script src="asset/js/script.js"></script>
       <!-- Option 2: Separate Popper and Bootstrap JS -->
       <!--
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

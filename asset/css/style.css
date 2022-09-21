@@ -3,30 +3,50 @@ body{
     font-family: 'Cairo', sans-serif;
 }
 
-div.col{
-    min-height: 500px;
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#root{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blueviolet;
-    color: #fff;
-    font-weight: 700;
-    border: 1px solid;
-    padding: 0 !important;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: relative;
+
 }
-.container.bg-light{
-    background-color:coral !important;
-    height: 100%;
-    padding: 0 !important;
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title {
+    text-shadow: -2px 0px 3px rgb(216 0 255 / 50%);
+}
+.content{
+    width: 250px;
 }
 
-.bg-light ~ .col {
-    height: 250px;   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: blueviolet;
-    color: #fff;
-    font-weight: 700;
-    border: 1px solid; 
+.toast {
+    position: absolute;
+    width: 200px;
+    background-color: #6b20cf;
+    font-size: 22px;
+    padding: 4px 8px;
+    text-align: center;
+    transition: all .5s ease-in;
+    overflow: hidden;
+    top: 30px;
+    right: 30px;
+    transform: translateX(240px);
+}
+
+.toast.show {
+    top: 30px;
+    right: 30px;
+    transform: translateX(0px);
+    transition: all .5s ease-in;
 }
